@@ -1,4 +1,4 @@
-# kubernetes_ubuntu_20.04
+# kubernetes 1.24.3 ubuntu_20.04
 
 ## Step 1: Server update
     sudo apt update
