@@ -16,3 +16,12 @@
     # Remove config file
     sudo rm /etc/containerd/config.toml
     sudo systemctl restart containerd.service
+
+## CoreDNS Stop Status on CreateContainer
+    #Install Container Pod Network
+    
+    kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel.yml
+    #Must be check init pod network id in kube-flannel.yml
+    #When initalize kubeadm --pod-network-cidr=10.244.0.0/16
+    
+    
