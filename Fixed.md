@@ -1,5 +1,13 @@
 # Fixed
 
+## Get error kubectl after successfully install everything.
+    #if you show message "the server dosen't have a resource type "something"
+    #try check config to your $HOME/.kube/config file
+    
+    mkdir -p $HOME/.kube
+    sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+    sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
 ## CGroup Memory Missing Issue
     sudo nano /boot/firmware/cmdline.txt
     
