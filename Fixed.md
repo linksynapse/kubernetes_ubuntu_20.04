@@ -1,5 +1,9 @@
 # Fixed
 
+## Node is notready (cni is not initalized)
+    https://kubernetes.io/docs/tasks/administer-cluster/migrating-from-dockershim/troubleshooting-cni-plugin-related-errors/
+    ref
+
 ## Get error kubectl after successfully install everything.
     #if you show message "the server dosen't have a resource type "something"
     #try check config to your $HOME/.kube/config file
